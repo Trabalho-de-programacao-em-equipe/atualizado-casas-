@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Katibeh&display=swap');
+
+h2{
+
+  font-family: "Girassol", serif;
+  font-size: 50px;
+  color: rgb(192, 186, 186);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Katibeh&display=swap');
+
+p{
+
+font-family: "Katibeh",serif;
+font-size: 40px;
+color: rgb(192, 186, 186);
+text-align: justify;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  background: linear-gradient(217deg, #000b4b,rgb(1, 5, 16) 70%),
+  linear-gradient(127deg, rgb(14, 53, 81), rgb(55, 82, 117) 70%),
+  linear-gradient(336deg, #000b4b, rgb(62, 127, 157) 70%);
+}
+.conteudogeral{
+  margin: 20px 200px 20px 200px;
+}
+
+.imagemLogo{
+  width: 350px;
+  display: block;
+  margin: 10px auto;
+}
+
+nav {
+  &.primary-navigation {
+    margin: 0 auto;
+    width: 100%;
+    background-image: linear-gradient(rgb(4, 12, 56), #000b4b);
+    padding:  0 0 0;  
+    font-size: 30px;
+    box-shadow: 15px 2px 10px rgba(0, 0, 0, 0.377) ;
+    justify-content: space-between;
+    border-radius: 40px;
+  }
+
+    ul li {
+      list-style: none;
+      margin: 0 auto;
+      display: inline-block;
+      padding: 0px 50px;
+      position: relative;
+      text-decoration: none;
+      text-align: center;
+      font-family: "Kanit", sans-serif;
+      font-weight: bold;
+      font-size: 40px;
+    }
+
+    li a {
+      color: rgb(55, 82, 117);
+    }
+
+    li a:hover {
+      color: #f7f7f7;
+    }
+
+    li:hover {
+      cursor: pointer;
+    }
+
+    ul li ul {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      padding-left: 0px;
+      left: 200px;
+      display: none;
+      background: rgb(255, 255, 255);
+    }
+
+    ul li:hover > ul,
+    ul li ul:hover {
+      visibility: visible;
+      opacity: 1;
+      display: block;
+      min-width: 250px;
+      text-align: left;
+      padding-top: 30px;
+      box-shadow: 0px 3px 5px -1px #ffffff;
+    }
+
+    ul li ul li {
+      clear: both;
+      width: 100%;
+      text-align: left;
+      margin-bottom: 20px;
+      border-style: none;
+      font-family: "Katibeh",serif;
+      font-size: 30px;
+    }
+
+    ul li ul li a:hover {
+      padding-left: 10px;
+      border-left: 2px solid #000b4b;
+      transition: all 0.3s ease;
+    }
+  }
+
+
+a {
+    text-decoration: none;
+    
+}
+ ul li ul li a 
+ { transition: all 0.5s ease; }
+
+.logocab{
+  width: 100px;
+  height: 100px;
+}
+.lupa{
+  width: 50px;
+  height: 50px;
+  text-align: right;
+  padding-left: 90px;
+  margin-top: 25px;
+}
+.cab{
+  display: flex;
+  text-align: center;
+  letter-spacing: 0;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.abas{
+  justify-content: space-around;
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+}
+.aba{
+  padding-left: 290px;
+  color: rgb(192, 186, 186);
+  font-family: "Katibeh",serif;
+}
+
+#body-cima{
+  background: url("./imagens/escoa-brilho.jpeg");
+}
+
+header{
+  
+  width: 1850px;
+  display: block;
+  margin: 0px auto;
+}
+
+.elementosCabeçalho{
+
+  display: flex;
+   
+  justify-content: space-between;
+ 
+
+}
+
+.especificoElemento{
+
+  text-decoration: none;
+  
+  color: black;
+
+}
+
+.escola{
+  width: 2000px;
+  height: 400px;
+  margin-bottom: -20px;
+}
+
+.imagensCasas {
+
+  width: 150px;
+
+}
+.anuncio{
+
+  width: 2000px;
+  height: 400px;
+  display: block;
+  margin: 0px auto;
+
+}
+
+.alinharTexto{
+
+display: flex;
+column-gap: 20px;
+
+}
+h2{
+
+  text-align: center;
+}
+
+.arrumarTexto {
+
+padding: 50px;
+
+}
+
+.alinharTexto{
+
+ margin-top: 20px;
+
+}
+
+
+.imagensCasas{
+  margin: 2px;
+  width: 400px;
+  height: 500px;
+}
+
+.localizacao{
+
+  width: 400px;
+  border-radius: 20px;
+  box-shadow: rgb(97, 107, 134) 0px 10px 60px -20px;
+  margin: 50px;
+
+}
+.arrumarLocalizacao{
+  display: flex;
+  margin: 20px 200px 20px 200px;
+  align-items: center;
+}
+
+.arrumarTexto-localizacao{
+
+  padding: 80px;
+}
+
+.rodape-alinhar{
+  text-align: left;
+}
+
+.rodape-alinhar2{
+  text-align: center;
+  margin-top: 22px;
+  line-height: 20px;
+  font-size: 30px;
+}
+
+.insta-criador{
+  margin-top: 13px;
+}
+
+.rodape-geral{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+footer{
+  background: url("./imagens/brilho.PNG");
+  background-color:#022a44;
+  padding: 20px;
+  display: block;
+  margin: 0px auto;
+  
+}
+
+.Linksrodape{
+
+  display:flex;
+  flex-direction:column;
+
+}
+.imagens-logo{
+  width:40px;
+}
+
+.arrumarEscrita {
+
+  display:flex;
+  justify-content: center;
+  gap:20px;
+
+}
+
+.arrumar-instagrancurso{
+
+  display:flex;
+  gap:20px;
+  justify-content:center;
+
+}
+
+.arrumargeral{
+
+  display:flex;
+  gap:20px;
+  flex-direction:column;
+}
+
+.arrumar-instagramsala{
+
+  text-align:center;
+  font-size: 30px;
+}
+
+.logoempresa{
+
+  width:100px;
+  margin-top: 18px;
+}
+
+.tam-letra{
+  font-size: 30px;
+}
